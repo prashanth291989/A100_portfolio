@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>A100 portfolio</title>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+<link href="css/style.css" rel="stylesheet"/>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	    document.getElementById('A100_project_description').style.display = 'block';
+        document.getElementById('Whiteboard_project_description').style.display = 'none';
+		document.getElementById('jobboard_project_description').style.display = 'none';
+		document.getElementById('Apprentices_project_description').style.display = 'none';
+		document.getElementById('A100image').style.display = 'block';
+        document.getElementById('whiteboardimage').style.display = 'none';
+		document.getElementById('jobboardimage').style.display = 'none';
+		document.getElementById('Apprenticeimage').style.display = 'none';
+});
+function A100(){
+       document.getElementById('A100_project_description').style.display = 'block';
+       document.getElementById('Whiteboard_project_description').style.display = 'none';
+		document.getElementById('jobboard_project_description').style.display = 'none';
+		document.getElementById('Apprentices_project_description').style.display = 'none';
+		document.getElementById('A100image').style.display = 'block';
+        document.getElementById('whiteboardimage').style.display = 'none';
+		document.getElementById('jobboardimage').style.display = 'none';
+		document.getElementById('Apprenticeimage').style.display = 'none';
+    }
+
+    function whiteboard(){
+       document.getElementById('A100_project_description').style.display = 'none';
+       document.getElementById('Whiteboard_project_description').style.display = 'block';
+		document.getElementById('jobboard_project_description').style.display = 'none';
+		document.getElementById('Apprentices_project_description').style.display = 'none';
+		document.getElementById('A100image').style.display = 'none';
+        document.getElementById('whiteboardimage').style.display = 'block';
+		document.getElementById('jobboardimage').style.display = 'none';
+		document.getElementById('Apprenticeimage').style.display = 'none';
+    }
+	function jobboard(){
+		document.getElementById('A100_project_description').style.display = 'none';
+       document.getElementById('Whiteboard_project_description').style.display = 'none';
+		document.getElementById('jobboard_project_description').style.display = 'block';
+		document.getElementById('Apprentices_project_description').style.display = 'none';
+		document.getElementById('A100image').style.display = 'none';
+        document.getElementById('whiteboardimage').style.display = 'none';
+		document.getElementById('jobboardimage').style.display = 'block';
+		document.getElementById('Apprenticeimage').style.display = 'none';
+	}
+	function Apprentices(){
+		document.getElementById('A100_project_description').style.display = 'none';
+       document.getElementById('Whiteboard_project_description').style.display = 'none';
+		document.getElementById('jobboard_project_description').style.display ='none' ;
+		document.getElementById('Apprentices_project_description').style.display = 'block';
+		document.getElementById('A100image').style.display = 'none';
+        document.getElementById('whiteboardimage').style.display = 'none';
+		document.getElementById('jobboardimage').style.display = 'none';
+		document.getElementById('Apprenticeimage').style.display = 'block';
+	}
+</script>
+</head>
+<body>
+<div class="container">
+
+<div class="container_item">
+    <div class="list">
+	<ul class="list-group">
+        <li  class="list-group-item"><a class="removeunderline" href="#" onclick=A100();>A100 project</a></li>
+        <li  class="list-group-item"><a class="removeunderline" href="#" onclick=whiteboard()>Whiteboard project</a></li>        
+        <li  class="list-group-item"><a class="removeunderline" href="#" onclick=jobboard()>Jobboard project</a></li>
+        <li  class="list-group-item"><a class="removeunderline" href="#" onclick=Apprentices()>Apprentices project</a></li>
+    </ul>
+</div>
+</div>
+
+<div class="container_item">
+<img id="A100image" src="img/A100.png" alt="A100projects" height="400" width="400">
+<img id="whiteboardimage" src="img/whiteboard.png" alt="A100projects" height="400" width="400">
+<img id="jobboardimage" src="img/jobboard.png" alt="A100projects" height="400" width="400">
+<img id="Apprenticeimage" src="img/apprentice.png" alt="A100projects" height="400" width="400">
+</div>
+
+<div class="container_item">
+<div class="description">
+<div id="A100_project_description">
+<table >
+  <tr>
+   <th>Project name: &nbsp;	A100 project</th></tr>
+    <tr>
+	<td>Accelerating Connecticut's Startup Careers.
+A100 is an APPRENTICESHIP PROGRAM for aspiring SOFTWARE developers. 
+</td>
+    
+  </tr>
+</table>
+
+ </div>
+ <div id="Whiteboard_project_description">
+<table>
+  <tr>
+	<th>Project name: &nbsp;	White Board project</th></tr>
+    <tr><td>
+By applying for the A100 program and getting selected as an Apprentice, you’ll be eligible for our free, 
+2-month TRAINING series. If you perform well during the training, you’ll be eligible for a paid internship with a local startup.
+We match all high-performing students with paid internships at growing, profitable startups.
+During your internship you’ll work on real products for real companies here in Connecticut.
+ We’ll supervise you and make sure that you learn by doing.</td>
+    
+  </tr>
+</table>
+
+ </div>
+ <div id="jobboard_project_description">
+<table >
+   <tr>
+     <th>Project name: &nbsp;	Job board project</th></tr>
+    <tr>
+	<td>
+2-month TRAINING series. If you perform well during the training, you’ll be eligible for a paid internship with a local startup.
+We match all high-performing students with paid internships at growing, profitable startups.
+During your internship you’ll work on real products for real companies here in Connecticut.
+ We’ll supervise you and make sure that you learn by doing.</td>
+    
+  </tr>
+</table>
+
+ </div>
+ <div id="Apprentices_project_description">
+<table >
+  <tr>
+     <th>Project name: &nbsp;Apprentice project</th></tr>
+    </tr><td>If you perform well during the training, you’ll be eligible for a paid internship with a local startup.
+We match all high-performing students with paid internships at growing, profitable startups.
+During your internship you’ll work on real products for real companies here in Connecticut.
+ We’ll supervise you and make sure that you learn by doing.</td>
+    
+  </tr>
+</table>
+
+
+ </div>
+ 
+ 
+ </div>
+ </div>
+ </div>
+</body>
+</html>
