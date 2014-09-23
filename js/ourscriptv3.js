@@ -1,6 +1,6 @@
 var imgarray = [ 
 	 "img/website_redesign.png",
-	 "img/website_revamp.png", 
+	 "img/Team_Cup_of_Java.png", 
 	 "img/Proto_App.png", 
 	 "img/whiteboard_head.png" ];
 
