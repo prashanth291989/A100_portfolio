@@ -8,7 +8,7 @@ var imgarray = [
 $("#insert_imgs").html('<image src="'+imgarray[0]+'"+>')
 $('#projText').hide();
 var u = $("ul.testText li:eq('"+0+"')").text();
-$("#insert_text").html('<p>"'+u+'"</p>');
+$("#insert_text").html('<p>'+u+'</p>');
 
 
 $("a.listen").click(function() {
@@ -21,7 +21,7 @@ $("a.listen").click(function() {
 	console.log(x);
 	var z = $("ul.testText li:eq('"+x+"')").text();
 	$("ul.testText li:not('"+x+"')").hide();
-	$("#insert_text").html('<p>"'+z+'"</p>');
+	$("#insert_text").html('<p>'+z+'</p>');
 	
 	console.log(z);
 });
