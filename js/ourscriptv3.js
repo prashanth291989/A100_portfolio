@@ -33,6 +33,7 @@ $("a.listen").click(function(e) {
 	//Manages the "toggling" of the active class tag on the list-group
 	//that is used onthe main page. 
 	$('a.active').removeClass('active');
+l
 
 	var $this = $(this);
 	  if (!$this.hasClass('active')) {
