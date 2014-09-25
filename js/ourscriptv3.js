@@ -17,22 +17,30 @@ var u = $("ul.testText li:eq('"+0+"')").text();
 $("#insert_text").html('<p>'+u+'</p>');
 
 
-$("a.listen").click(function() {
+$("a.listen").click(function(e) {
 
 	var i = imgarray[$("a.listen").index(this)];
 	var l = linksarray[$("a.listen").index(this)];
+	var x =	$("a.listen").index(this);
 
-
-	$("#insert_imgs").html('<a href='+l+'>'+'<image src="'+i+'"+></a>');
-	console.log(i);
-
-	var x = $("a.listen").index(this);
-	console.log(x);
-
+	//Displays image and text based on the list-element that is selected
 	var z = $("ul.testText li:eq('"+x+"')").text();
 	$("ul.testText li:not('"+x+"')").hide();
 	$("#insert_text").html('<p>'+z+'</p>');
+
+	$("#insert_imgs").html('<a href='+l+'>'+'<image src="'+i+'"+></a>');
+
+	//Manages the "toggling" of the active class tag on the list-group
+	//that is used onthe main page. 
+	$('a.active').removeClass('active');
+
+	var $this = $(this);
+	  if (!$this.hasClass('active')) {
+	    $this.addClass('active');
+	  }
+
 	
-	console.log(z);
 });
+
+
 
