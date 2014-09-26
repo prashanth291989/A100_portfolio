@@ -12,6 +12,7 @@ ul {
 #insert_text {
     position: relative;
     padding-bottom: 15px;
+    font-size: 18px;
 }
 
 
@@ -39,8 +40,12 @@ border: 2px Solid #FFFFFF;
 
 body,html {
     background-color: #f2f2f2
-    height:100%;
 }
 
+
+#insert_text {
+
+    color:black;
+}
 
 
