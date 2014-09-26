@@ -10,7 +10,7 @@ ul {
 }
 
 #insert_text {
-    position: static;
+    position: relative;
     padding-bottom: 15px;
 }
 
@@ -24,6 +24,7 @@ ul {
 -webkit-border-radius: 17px 17px 17px 17px;
 border: 2px Solid #FFFFFF;
 }
+
 .content{
 	margin-top:20px;
 	width:100%;
@@ -35,3 +36,11 @@ border: 2px Solid #FFFFFF;
 .row{
 	margin-bottom:10px;
 }
+
+body,html {
+    background-color: #f2f2f2
+    height:100%;
+}
+
+
+
