@@ -13,7 +13,7 @@ var linksarray =[
 
 $("#insert_imgs").html('<a href='+linksarray[0]+'>'+'<image src="'+imgarray[0]+'"+></a>')
 $('#projText').hide();
-var u = $("ul.testText li:eq('"+0+"')").text();
+var u = $("ul.projDescription li:eq('"+0+"')").text();
 $("#insert_text").html('<p>'+u+'</p>');
 
 
@@ -24,8 +24,8 @@ $("a.listen").click(function(e) {
 	var x =	$("a.listen").index(this);
 
 	//Displays image and text based on the list-element that is selected
-	var z = $("ul.testText li:eq('"+x+"')").text();
-	$("ul.testText li:not('"+x+"')").hide();
+	var z = $("ul.projDescription li:eq('"+x+"')").text();
+	$("ul.projDescription li:not('"+x+"')").hide();
 	$("#insert_text").html('<p>'+z+'</p>');
 
 	$("#insert_imgs").html('<a href='+l+'>'+'<image src="'+i+'"+></a>');

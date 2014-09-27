@@ -1,21 +1,21 @@
-
-
-.teamHeader {
-    font-weight: bold;
-    font-size: 175%;
+body,html {
+    background-color: #f2f2f2
 }
 
 ul {
     list-style: none;
 }
 
-#insert_text {
-    position: relative;
-    padding-bottom: 15px;
-    font-size: 18px;
+.content{
+	margin-top:20px;
+	width:100%;
+	height:100%;
 }
 
-
+.email {
+    text-decoration: none;
+    color: white;
+}
 
 .imagewidth{
 	width:100%;
@@ -26,26 +26,36 @@ ul {
 border: 2px Solid #FFFFFF;
 }
 
-.content{
-	margin-top:20px;
-	width:100%;
-	height:100%;
+.phone{
+    text-decoration: none;
+    color: white;
 }
-#project_description{
-	background-color:#f2f2f2;
-}
+
 .row{
 	margin-bottom:10px;
 }
 
-body,html {
-    background-color: #f2f2f2
+.teamHeader {
+    font-weight: bold;
+    font-size: 175%;
 }
 
+.wrapper {
+min-height: 760px;
+position: relative;
+/*height: 100%;*/
+margin: auto ;
+overflow:auto;
+background-color: #f2f2f2
+}
 
 #insert_text {
-
+    position: relative;
+    padding-bottom: 15px;
+    font-size: 18px;
     color:black;
 }
 
-
+#project_description{
+	background-color:#f2f2f2;
+}
