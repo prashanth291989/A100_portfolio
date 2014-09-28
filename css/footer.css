@@ -1,35 +1,39 @@
 
+
+footer{
+    background-color:#424142;
+    color:#fff;
+    display: table-cell;
+}
+
+.footer, .push{
+    height:10em;
+}
+
 #col_1_footer {
     float:left;
     position:relative;
-    width:28%;
-    padding-right:2%;
-    padding-top:2%;
+    width:20%;
+    padding-top:1em;
 }
 #col_2_footer {
     float:left;
-    position:relative;
-    width:28%;
-    padding: .1% 4% 0 6%;
+    width:60%;
+    padding-top:1em;
 }
 #col_3_footer {
-    float:left;
+    float:right;
     position:relative;
-    width:28%;
-    padding-left: 14%;
-    padding-top: .75%;
-}
-
-#col_holder_footer{
-    padding-bottom:200px;
-    margin-left:auto;
-    margin-right: auto;
-    width: 80%;
+    width:20%;
+    padding-top:1em;
 }
 
 #desktop_footer{
     display: block;
-    padding-bottom: -150px;
+    margin-left:auto;
+    margin-right: auto;
+    width: 80%;
+    padding-bottom:-150px;
 }
 
 #footer{

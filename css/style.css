@@ -1,5 +1,14 @@
+*{
+    margin:0;
+}
+
 body,html {
-    background-color: #f2f2f2
+    background-color: #f2f2f2;
+    height: 100%; 
+}
+
+footer{
+    background-color:#98B2CC;
 }
 
 ul {
@@ -12,23 +21,22 @@ ul {
 	height:100%;
 }
 
-.email {
+.email, .phone {
     text-decoration: none;
     color: white;
+}
+
+.footer, .push{
+    height:10em;
 }
 
 .imagewidth{
 	width:100%;
 	height:100%;
 	border-radius: 17px 17px 17px 17px;
--moz-border-radius: 17px 17px 17px 17px;
--webkit-border-radius: 17px 17px 17px 17px;
-border: 2px Solid #FFFFFF;
-}
-
-.phone{
-    text-decoration: none;
-    color: white;
+    -moz-border-radius: 17px 17px 17px 17px;
+    -webkit-border-radius: 17px 17px 17px 17px;
+    border: 2px Solid #FFFFFF;
 }
 
 .row{
@@ -41,12 +49,10 @@ border: 2px Solid #FFFFFF;
 }
 
 .wrapper {
-min-height: 760px;
-position: relative;
-/*height: 100%;*/
-margin: auto ;
-overflow:auto;
-background-color: #f2f2f2
+    min-height: 100%;
+    height: auto !important;
+    height:100;
+    margin: 0 auto -10em;
 }
 
 #insert_text {
@@ -56,6 +62,3 @@ background-color: #f2f2f2
     color:black;
 }
 
-#project_description{
-	background-color:#f2f2f2;
-}
