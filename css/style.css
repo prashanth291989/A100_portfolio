@@ -6,6 +6,7 @@
 }
 ul {
     list-style: none;
+    font-size: 16px;
 }
 #insert_text {
     position: relative;
@@ -35,12 +36,20 @@ body,html {
     background-color: #f2f2f2
 }
 #insert_text {
-
     color:black;
+}
+.teamText
+{
+	color:black;
+	font-size: 16px;
 }
 #allprojhead{
 	width:100%;
 	text-align: center;
+}
+
+p{
+	font-size: 16px;
 }
 
 
