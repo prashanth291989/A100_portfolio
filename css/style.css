@@ -4,19 +4,14 @@
     font-weight: bold;
     font-size: 175%;
 }
-
 ul {
     list-style: none;
 }
-
 #insert_text {
     position: relative;
     padding-bottom: 15px;
     font-size: 18px;
 }
-
-
-
 .imagewidth{
 	width:100%;
 	height:100%;
@@ -25,7 +20,6 @@ ul {
 -webkit-border-radius: 17px 17px 17px 17px;
 border: 2px Solid #FFFFFF;
 }
-
 .content{
 	margin-top:20px;
 	width:100%;
@@ -37,15 +31,17 @@ border: 2px Solid #FFFFFF;
 .row{
 	margin-bottom:10px;
 }
-
 body,html {
     background-color: #f2f2f2
 }
-
-
 #insert_text {
 
     color:black;
 }
+#allprojhead{
+	width:100%;
+	text-align: center;
+}
+
 
 
