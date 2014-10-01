@@ -3,7 +3,7 @@
 footer{
     background-color:#424142;
     color:#fff;
-    display: table-cell;
+    /*display: table-cell;*/
 }
 
 .footer, .push{
@@ -13,13 +13,16 @@ footer{
 #col_1_footer {
     float:left;
     position:relative;
+    text-align: center;
     width:20%;
     padding-top:1em;
+    padding-left:2em;
 }
 #col_2_footer {
     float:left;
     width:60%;
     padding-top:1em;
+    text-align: center;
 }
 #col_3_footer {
     float:right;
@@ -47,17 +50,15 @@ footer{
     max-height: 30%;
 }
 
-#mobile_footer{display:none;}
-
-
-/* --------------------------------------------
-  mobile
--------------------------------------------- */
-@media (max-width: 617px) {
-#desktop_footer{display:none;}
-#footer_info{text-align:center;}
-#mobile_footer{display:block;}
+@media (max-width: 830px) {
+    #col_1_footer{padding-left:0em;}
+    #col_2_footer{}
+    #col_3_footer{padding-top:1em;vertical-align: text-top;}
 }
-/* --------------------------------------------
-  END Mobile
--------------------------------------------- */
+
+@media (max-width: 620px) {
+    .footer{height:25em;}
+    #col_1_footer,#col_2_footer,#col_3_footer {width:100%;}
+    #col_3_footer{padding-top:2em; text-align:center;}
+}
+
